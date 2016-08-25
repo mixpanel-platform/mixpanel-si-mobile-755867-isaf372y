@@ -116,7 +116,7 @@
       </div>
     </div>
     <script type="text/javascript">
-      _.each($('td').text(), function(value){
+      _.each($('td'), function(value){
         console.log(value)
         if (value === "&nbsp"){
           this.css('background-color','gray')
